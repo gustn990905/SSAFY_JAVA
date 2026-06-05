@@ -1,0 +1,39 @@
+
+public class Java02_VariableTest {
+	public static void main(String[] args) {
+		// 변수 작명규칙
+		// -대소문자를 구분한다
+		// -공백은 허용되지 않는다
+		// -숫자로 시작할 수 없다.
+		// -'$'와 '_'를 변수 이름에 사용할 수 있다. 이외의 특수문자는 허용되지 않는다.
+		// -예약어(keyword : 자바 문법을 위해서 미리 지정되어 있는 단어)는 사용할 수 없다.
+		// -합성어의 경우 주로 camelCase를 활용한다.
+		// -한글을 이용한 변수 작명 가능(권장 X)
+		
+		int age;
+		int age2;
+		int age3;
+		
+		int $age;
+		int 나이;
+		
+		String myName;
+		
+//		int a;
+//		a = 100;
+		
+		int a = 100;
+		
+		System.out.println(a);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
